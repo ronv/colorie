@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<article class="post" role="article">
+	<div class="meta">
+  <h1>{{ page.title }}</h1>
+  <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }} &middot; {{ page.category }}</time>
+  <div class="meta">
+  {{ content }}
+</article>

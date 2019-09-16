@@ -1,0 +1,65 @@
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a,a:visited {
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+h1, h2, h3, h4, h5, nav a {
+	font-weight: 500;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid black;
+  font-size: 120%;
+  margin: 2rem 0;
+  padding: 1rem;
+
+  p {
+    margin: 0;
+  }
+
+  footer {
+    font-size: 80%;
+    margin: 1rem 0 0 0;
+  }
+}
+
+dl {
+  dt {
+    margin-bottom: 0.5rem;
+  }
+  dd {
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+}
+
+code, .highlight {
+    background: #edf2f7;
+    overflow: auto;
+}
+code {
+	word-break: break-all;
+}
+
+code {
+	padding: 0.1rem 0.3rem;
+}
+
+pre {
+  padding: 1em;
+}
+
+.date {
+  opacity: 0.6;
+}
